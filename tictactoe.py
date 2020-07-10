@@ -5,6 +5,8 @@ def insertSign(sign, pos):
     global board
     board[pos] = sign
 
+
+
 def spaceIsFree(pos):
     return board[pos] == ' '
 
@@ -48,7 +50,9 @@ def playerMove():
                 print('Type a number within the range!')
         except:
             print('Please print a number!')
-#
+
+
+#create minmax algorithm 
 def compMove():
     pass
 
