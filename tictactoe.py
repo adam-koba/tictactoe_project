@@ -6,7 +6,7 @@
 
 board = [' ' for x in range(10)]
 
-def insertLetter(sign, pos)
+def insertLetter(sign, pos):
     board[pos] = sign
 def spaceIsFree(pos):
     return board[pos] == ' '
